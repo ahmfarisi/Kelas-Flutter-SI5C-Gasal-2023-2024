@@ -36,7 +36,35 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Container(),
+            Container(
+              margin: const EdgeInsets.symmetric(vertical: 16),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(
+                    children: [
+                      Icon(Icons.calendar_today),
+                      SizedBox(height: 8),
+                      Text('Open Everyday')
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.access_time),
+                      SizedBox(height: 8),
+                      Text('09.00 - 20.00')
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(Icons.monetization_on),
+                      SizedBox(height: 8),
+                      Text('Rp 25.000')
+                    ],
+                  ),
+                ],
+              ),
+            ),
             Container(),
           ],
         ),
