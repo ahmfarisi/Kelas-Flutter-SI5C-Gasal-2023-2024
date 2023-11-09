@@ -9,6 +9,7 @@ class DetailScreen extends StatelessWidget {
         body: SafeArea(
       child: Column(
         children: [
+          Image.asset('images/farm-house.jpg'),
           Container(
             margin: const EdgeInsets.only(top: 16),
             child: const Text(
