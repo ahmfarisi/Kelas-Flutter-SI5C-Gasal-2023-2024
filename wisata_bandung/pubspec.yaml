@@ -23,7 +23,7 @@ flutter:
   fonts:
     - family: Staatliches
       fonts:
-        -asset: fonts/Staatliches-Regular.ttf
+        - asset: fonts/Staatliches-Regular.ttf
     - family: Oxygen
       fonts:
-        -asset: fonts/Oxygen-Regular.ttf
+        - asset: fonts/Oxygen-Regular.ttf
